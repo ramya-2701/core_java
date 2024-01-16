@@ -4,7 +4,7 @@ class Arithmetic1{
         return a+b;
     }
 }
-public class FinalArithmetic extends Arithmetic1{
+public final class FinalArithmetic extends Arithmetic1{
     public static void main(String[] args){
         FinalArithmetic fa=new FinalArithmetic();
         int result=fa.addValues(10);
