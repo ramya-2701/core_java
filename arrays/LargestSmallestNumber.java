@@ -1,7 +1,7 @@
 
 public class LargestSmallestNumber {
     public static void main(String[] args) {
-        int arr[] = new int[]{10, 40, 50, 30, 20};
+        int arr[] = {80,10, 40, 50, 30, 20};
         int small_num = arr[0];
         int large_num = arr[0];
         for (int i = 1; i < arr.length; i++) {
